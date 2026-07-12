@@ -35,7 +35,7 @@ export function ContactSection() {
               <Phone size={16} /> +92-324-4789984
             </a>
             <a
-              href="/Atieb_FullStack_Developer.pdf"
+              href="/Atieb_Full_Stack_Developer.pdf"
               download
               className="inline-flex w-full items-center justify-center gap-2 rounded-xl border border-teal/40 bg-teal/10 px-5 py-3 text-sm font-semibold text-teal transition-colors hover:bg-teal/15"
             >
