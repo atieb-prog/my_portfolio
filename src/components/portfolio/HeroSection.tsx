@@ -73,7 +73,7 @@ export function HeroSection({ onViewProjects }: HeroSectionProps) {
             <FileText size={16} /> View My Projects
           </button>
           <a
-            href="/Atieb_FullStack_Developer.pdf"
+            href="/Atieb_Full_Stack_Developer.pdf"
             download
             className="inline-flex w-full items-center justify-center gap-2 rounded-xl border border-hair bg-card/60 px-6 py-3 text-sm font-semibold text-primary transition-all duration-200 hover:-translate-y-0.5 hover:border-teal/40 hover:bg-card sm:w-auto"
           >
