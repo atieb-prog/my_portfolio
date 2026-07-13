@@ -1,5 +1,5 @@
 import { Download, Mail, Phone } from "lucide-react";
-import { FaGithub, FaLinkedinIn } from "react-icons/fa";
+import { FaGithub, FaLinkedinIn, FaWhatsapp } from "react-icons/fa";
 
 export function ContactSection() {
   return (
@@ -29,10 +29,12 @@ export function ContactSection() {
               <Mail size={16} /> atiebmughal@gmail.com
             </a>
             <a
-              href="tel:+923244789984"
-              className="inline-flex w-full items-center justify-center gap-2 rounded-xl border border-hair/80 bg-base/45 px-5 py-3 text-sm font-semibold text-primary transition-colors hover:border-teal/35 hover:bg-base/65"
+              href="https://wa.me/923244789984"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="inline-flex w-full items-center justify-center gap-2 rounded-xl border border-green-400/40 bg-green-500/12 px-5 py-3 text-sm font-semibold text-green-300 transition-colors hover:border-green-300/60 hover:bg-green-500/20"
             >
-              <Phone size={16} /> +92-324-4789984
+              <FaWhatsapp size={16} /> WhatsApp
             </a>
             <a
               href="/Atieb_Full_Stack_Developer.pdf"
@@ -44,6 +46,13 @@ export function ContactSection() {
           </div>
 
           <div className="flex items-center justify-center gap-4 sm:gap-5">
+            <a
+              href="tel:+923244789984"
+              className="inline-flex h-11 w-11 items-center justify-center rounded-full border border-hair/80 bg-base/60 text-muted transition-colors hover:-translate-y-0.5 hover:border-teal/40 hover:text-teal"
+              aria-label="Phone"
+            >
+              <Phone size={18} />
+            </a>
             <a
               href="https://github.com/atieb-prog"
               target="_blank"
