@@ -123,10 +123,12 @@ export function ContactSection() {
                   <form
                     name="contact"
                     method="POST"
+                    netlify-honeypot="bot-field"
                     onSubmit={handleSubmit}
                     className="flex flex-col gap-4"
                   >
                     <input type="hidden" name="form-name" value="contact" />
+                    <input type="hidden" name="bot-field" />
 
                     <div>
                       <label
