@@ -192,7 +192,7 @@ export function ContactSection() {
               {/* Right: actual contact form */}
               <div>
                 {submitted ? (
-                  <div className="flex h-full min-h-[280px] flex-col items-center justify-center rounded-2xl border border-teal/30 bg-teal/5 p-8 text-center">
+                  <div className="flex h-full min-h-70 flex-col items-center justify-center rounded-2xl border border-teal/30 bg-teal/5 p-8 text-center">
                     <p className="font-display text-lg font-semibold text-teal mb-2">
                       Message sent!
                     </p>
