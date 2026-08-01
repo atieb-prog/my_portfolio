@@ -11,7 +11,7 @@ export function ContactSection() {
     const form = e.currentTarget;
     const data = new FormData(form);
 
-    fetch("/__forms.html", {
+    fetch("/form-submit.html", {
       method: "POST",
       headers: { "Content-Type": "application/x-www-form-urlencoded" },
       body: new URLSearchParams(
