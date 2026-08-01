@@ -36,8 +36,13 @@ export function CertificationsSection() {
             <GraduationCap size={16} /> Education
           </h3>
           <div className="rounded-xl border border-hair/80 bg-base/35 px-4 py-3">
-            <p className="text-sm text-primary leading-snug">BS Information Technology (BSIT)</p>
-            <p className="font-mono text-xs text-dim mt-1">University of the Punjab, Lahore · Mar 2024</p>
+            <div className="flex items-center justify-between gap-3">
+              <p className="text-sm leading-snug text-primary">BS Information Technology (BSIT)</p>
+              <span className="rounded-full border border-gold/30 bg-gold/10 px-2.5 py-1 font-mono text-[10px] tracking-[0.14em] text-gold uppercase">
+                2024
+              </span>
+            </div>
+            <p className="mt-2 font-mono text-xs text-dim">University of the Punjab, Lahore</p>
           </div>
           <h3 className="mt-8 mb-4 font-display text-sm font-semibold text-gold">Languages</h3>
           <div className="flex gap-2 flex-wrap">

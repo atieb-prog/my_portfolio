@@ -11,6 +11,7 @@ import { ProjectsSection } from "@/components/portfolio/ProjectsSection";
 import { CertificationsSection } from "@/components/portfolio/CredentialsSection";
 import { ContactSection } from "@/components/portfolio/ContactSection";
 import { Footer } from "@/components/portfolio/Footer";
+import { FaWhatsapp } from "react-icons/fa";
 
 export function PortfolioPage() {
   const [activeSection, setActiveSection] = useState("");
@@ -56,6 +57,17 @@ export function PortfolioPage() {
       <CertificationsSection />
       <ContactSection />
       <Footer />
+
+      <a
+        href="https://wa.me/923244789984"
+        target="_blank"
+        rel="noopener noreferrer"
+        aria-label="Chat on WhatsApp"
+        title="Chat on WhatsApp"
+        className="whatsapp-float fixed right-4 bottom-5 z-50 inline-flex h-12 w-12 items-center justify-center rounded-full border border-green-300/35 bg-green-500 text-white transition-all duration-200 hover:bg-green-400 sm:right-6 sm:bottom-6"
+      >
+        <FaWhatsapp size={22} />
+      </a>
     </div>
   );
 }
